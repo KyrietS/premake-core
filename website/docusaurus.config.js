@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Premake',
   tagline: 'Powerfully simple build configuration',
-  url: 'https://premake.github.io',
-  baseUrl: '/',
+  url: 'https://kyriets.github.io',
+  baseUrl: '/premake-core/',
   onBrokenLinks: 'warn', // FIXME: when docs are ready change it to 'throw'
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/premake-logo.png', // FIXME: make actual favicon.ico file
