@@ -4,13 +4,13 @@ Premake website is built using [Docusaurus 2](https://v2.docusaurus.io/), a mode
 
 ## Installation
 
-```console
+```
 npm install
 ```
 
 ## Local Development
 
-```console
+```
 npm start
 ```
 
@@ -18,8 +18,9 @@ This command starts a local development server and open up a browser window. Mos
 
 ## Build
 
-```console
+```
 npm run-script build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
