@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'warn', // FIXME: when docs are ready change it to 'throw'
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/premake-logo.png', // FIXME: make actual favicon.ico file
-  organizationName: 'premake',
+  organizationName: 'KyrietS',
   projectName: 'premake-core',
   themeConfig: {
   prism: {
