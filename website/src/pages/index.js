@@ -24,7 +24,7 @@ const features = [
     description: (
       <div>
         <p>The latest iteration of Premake, featuring an improved platform system, support for third-party modules, and loads of new features.</p>
-		<p className={styles.bigText}><a href='/download'>Download</a>&nbsp;·&nbsp;<a href="/docs">Documentation</a></p>
+		    <p className={styles.bigText}><a href='download/'>Download</a>&nbsp;·&nbsp;<a href='docs/'>Documentation</a></p>
       </div>
     ),
   },
@@ -34,7 +34,7 @@ const features = [
     description: (
       <div>
         <p>The latest in Premake's 4.x stable branch.</p>
-		<p className={styles.bigText}><a href='/download'>Download</a>&nbsp;·&nbsp;<a href="/docs/4.x">Documentation</a></p>
+		    <p className={styles.bigText}><a href='download/'>Download</a>&nbsp;·&nbsp;<a href='docs/4.x/'>Documentation</a></p>
       </div>
     ),
   },
