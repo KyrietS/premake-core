@@ -2,15 +2,12 @@ module.exports = {
 	title: 'Premake',
 	tagline: 'Powerfully simple build configuration',
 	url: 'https://premake.github.io/',
-	baseUrl: '/',
-	scripts: [
-		'https://use.fontawesome.com/dd1c9cd9ff.js'
-	],
+	baseUrl: '/premake-core/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'throw',
-	favicon: 'img/favicon.ico',
-	organizationName: 'premake',
-	projectName: 'premake.github.io',
+	favicon: 'img/premake-logo.png', // FIXME: make actual favicon.ico file
+	organizationName: 'KyrietS',
+	projectName: 'premake-core',
 	themeConfig: {
 		prism: {
 			additionalLanguages: ['lua'],

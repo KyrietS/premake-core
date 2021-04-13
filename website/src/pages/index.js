@@ -7,7 +7,7 @@ import { Container, Column, Row } from '../components/Grid';
 
 const Banner = () =>
 	<Container className="banner">
-		<img className="feature-image" src="/img/premake-logo.png" alt="Premake logo" />
+		<img className="feature-image" src="/premake-core/img/premake-logo.png" alt="Premake logo" />
 		<h1 className="hero__title">Premake</h1>
 		<p className="hero__subtitle">Powerfully simple build configuration</p>
 		<div className=".buttons">
