@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[172],{240:function(a){a.exports=JSON.parse('{"allTagsPath":"/premake-core/blog/tags","slug":"community-updates","name":"community-updates","count":7,"permalink":"/premake-core/blog/tags/community-updates"}')}}]);

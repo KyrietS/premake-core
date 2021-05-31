@@ -1,0 +1,1 @@
+(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2403],{5225:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/premake-core/blog/tags","slug":"community-updates","name":"community-updates","count":8,"permalink":"/premake-core/blog/tags/community-updates"}')}}]);
