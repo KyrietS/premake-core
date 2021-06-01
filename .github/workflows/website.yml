@@ -1,10 +1,10 @@
 name: Website
 
 on:
-  push:
-    paths: ['website/**']
   pull_request:
-    paths: ['website/**']
+    branches: [website-demo]
+  push:
+    branches: [website-demo]
 
 jobs:
   checks:
@@ -20,7 +20,6 @@ jobs:
           npm install
           npm run build
   publish:
-    if: github.repository_owner == 'premake' && github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -35,7 +34,7 @@ jobs:
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          echo "${{ secrets.WEBSITE_DEPLOY_KEY }}" > ~/.ssh/id_rsa
+          echo "${{ secrets.GH_PAGES_DEPLOY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           cat <<EOT >> ~/.ssh/config
           Host github.com
@@ -46,7 +45,7 @@ jobs:
         env:
           USE_SSH: true
           GIT_USER: git
-          DEPLOYMENT_BRANCH: master
+          DEPLOYMENT_BRANCH: gh-pages
         run: |
           git config --global user.email "actions@gihub.com"
           git config --global user.name "gh-actions"
